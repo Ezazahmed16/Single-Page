@@ -78,7 +78,11 @@ main{
 }
 
 /* Latest Courses */
-
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 17px;
+}
 .course_img img{
     width: 224px;
     height: 104px;
@@ -90,7 +94,10 @@ main{
 .course_ext{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
 }
+
 .course_info P{
     color: #ED6B4F;
     font-size: 14px;
@@ -109,4 +116,12 @@ main{
     color: #A2A2A2;
     font-size: 15px;
 }
-
+.duration{
+    background: #FFE4E8;
+    border-radius: 15px;
+    padding: 3px 5px;
+}
+.duration span {
+    color: #FF4A60;
+    font-size: 14px;
+}
